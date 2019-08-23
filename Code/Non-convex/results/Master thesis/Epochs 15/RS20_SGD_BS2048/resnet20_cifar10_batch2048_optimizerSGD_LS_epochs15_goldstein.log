@@ -1,0 +1,105 @@
+=> Start building model
+=> Python: 3.7.2 (default, Jan 17 2019, 22:10:14) 
+[GCC 6.3.0 20170516]
+=> Pytorch: 1.0.1.post2
+=> Numpy: 1.16.2
+=> CPUs: 48
+=> GPUs: 1
+=> CUDA: 10.0.130
+=> CUDNN: 7402
+=> Arguments: Namespace(a_1=0.0, a_2=0.1, batch_size=2048, cifar_type='cifar10', epochs=15, learning_rate=0.1, line_search='goldstein', max_samples_per_gpu=512, momentum=0.9, net='resnet20', num_classes=10, optimizer='sgd_ls', print_freq=50, progress_batches=5, save_model=True, store_progress=False, tol_grad=1e-05, weight_decay=0.0001)
+=> Dataset:  cifar10
+=> Model: resnet20
+=> Optimizer: sgd_gs
+Files already downloaded and verified
+Optimizer parameters:  {'lr': 0.1, 'momentum': 0.9, 'dampening': 0, 'weight_decay': 0.0001, 'nesterov': False, 'line_search': 'goldstein', 'tolerance_grad': 1e-05, 'tolerance_change': 1e-09, 'a_1': 0.0, 'a_2': 0.1}
+Epoch: [0][0/25]_, Loss: 2.3890_ Accuracy: 9.42_ Learning rate: 0.05000
+Epoch: [0][5/25]_, Loss: 2.2431_ Accuracy: 16.94_ Learning rate: 0.05000
+Epoch: [0][11/25]_, Loss: 2.0403_ Accuracy: 26.42_ Learning rate: 0.05000
+Epoch: [0][17/25]_, Loss: 1.8370_ Accuracy: 28.47_ Learning rate: 0.05000
+Epoch: [0][23/25]_, Loss: 1.7947_ Accuracy: 30.71_ Learning rate: 0.02500
+Test accuracy: 30.77_
+Epoch: [1][0/25]_, Loss: 1.7707_ Accuracy: 33.45_ Learning rate: 0.02500
+Epoch: [1][5/25]_, Loss: 1.7652_ Accuracy: 33.98_ Learning rate: 0.02500
+Epoch: [1][11/25]_, Loss: 1.7264_ Accuracy: 36.04_ Learning rate: 0.05000
+Epoch: [1][17/25]_, Loss: 1.6955_ Accuracy: 35.60_ Learning rate: 0.05000
+Epoch: [1][23/25]_, Loss: 1.6707_ Accuracy: 37.21_ Learning rate: 0.05000
+Test accuracy: 36.58_
+Epoch: [2][0/25]_, Loss: 1.6580_ Accuracy: 36.67_ Learning rate: 0.05000
+Epoch: [2][5/25]_, Loss: 1.5974_ Accuracy: 39.99_ Learning rate: 0.02500
+Epoch: [2][11/25]_, Loss: 1.5719_ Accuracy: 41.11_ Learning rate: 0.05000
+Epoch: [2][17/25]_, Loss: 1.5074_ Accuracy: 43.07_ Learning rate: 0.02500
+Epoch: [2][23/25]_, Loss: 1.4434_ Accuracy: 48.00_ Learning rate: 0.05000
+Test accuracy: 42.76_
+Epoch: [3][0/25]_, Loss: 1.4253_ Accuracy: 47.36_ Learning rate: 0.05000
+Epoch: [3][5/25]_, Loss: 1.4146_ Accuracy: 48.19_ Learning rate: 0.05000
+Epoch: [3][11/25]_, Loss: 1.3347_ Accuracy: 52.88_ Learning rate: 0.05000
+Epoch: [3][17/25]_, Loss: 1.2001_ Accuracy: 55.52_ Learning rate: 0.05000
+Epoch: [3][23/25]_, Loss: 1.2452_ Accuracy: 57.47_ Learning rate: 0.05000
+Test accuracy: 50.09_
+Epoch: [4][0/25]_, Loss: 1.2262_ Accuracy: 56.10_ Learning rate: 0.05000
+Epoch: [4][5/25]_, Loss: 1.2218_ Accuracy: 58.45_ Learning rate: 0.05000
+Epoch: [4][11/25]_, Loss: 1.1456_ Accuracy: 60.30_ Learning rate: 0.05000
+Epoch: [4][17/25]_, Loss: 1.1001_ Accuracy: 59.57_ Learning rate: 0.05000
+Epoch: [4][23/25]_, Loss: 1.1286_ Accuracy: 60.16_ Learning rate: 0.05000
+Test accuracy: 53.41_
+Epoch: [5][0/25]_, Loss: 1.1286_ Accuracy: 60.60_ Learning rate: 0.05000
+Epoch: [5][5/25]_, Loss: 1.1022_ Accuracy: 60.55_ Learning rate: 0.05000
+Epoch: [5][11/25]_, Loss: 1.0524_ Accuracy: 62.70_ Learning rate: 0.05000
+Epoch: [5][17/25]_, Loss: 1.0269_ Accuracy: 64.79_ Learning rate: 0.05000
+Epoch: [5][23/25]_, Loss: 1.0020_ Accuracy: 65.82_ Learning rate: 0.05000
+Test accuracy: 53.68_
+Epoch: [6][0/25]_, Loss: 1.0212_ Accuracy: 64.99_ Learning rate: 0.05000
+Epoch: [6][5/25]_, Loss: 1.0015_ Accuracy: 65.09_ Learning rate: 0.05000
+Epoch: [6][11/25]_, Loss: 0.9728_ Accuracy: 65.67_ Learning rate: 0.05000
+Epoch: [6][17/25]_, Loss: 0.9459_ Accuracy: 67.24_ Learning rate: 0.05000
+Epoch: [6][23/25]_, Loss: 0.9691_ Accuracy: 65.87_ Learning rate: 0.05000
+Test accuracy: 60.15_
+Epoch: [7][0/25]_, Loss: 0.9165_ Accuracy: 67.72_ Learning rate: 0.05000
+Epoch: [7][5/25]_, Loss: 0.9132_ Accuracy: 67.38_ Learning rate: 0.05000
+Epoch: [7][11/25]_, Loss: 0.9085_ Accuracy: 68.16_ Learning rate: 0.05000
+Epoch: [7][17/25]_, Loss: 0.9026_ Accuracy: 68.65_ Learning rate: 0.05000
+Epoch: [7][23/25]_, Loss: 0.8920_ Accuracy: 68.36_ Learning rate: 0.05000
+Test accuracy: 63.3_
+Epoch: [8][0/25]_, Loss: 0.8917_ Accuracy: 69.34_ Learning rate: 0.05000
+Epoch: [8][5/25]_, Loss: 0.8659_ Accuracy: 69.43_ Learning rate: 0.05000
+Epoch: [8][11/25]_, Loss: 0.8345_ Accuracy: 71.00_ Learning rate: 0.05000
+Epoch: [8][17/25]_, Loss: 0.8253_ Accuracy: 72.02_ Learning rate: 0.05000
+Epoch: [8][23/25]_, Loss: 0.8116_ Accuracy: 71.19_ Learning rate: 0.02500
+Test accuracy: 66.57_
+Epoch: [9][0/25]_, Loss: 0.8352_ Accuracy: 71.73_ Learning rate: 0.05000
+Epoch: [9][5/25]_, Loss: 0.8137_ Accuracy: 72.51_ Learning rate: 0.05000
+Epoch: [9][11/25]_, Loss: 0.8320_ Accuracy: 71.34_ Learning rate: 0.05000
+Epoch: [9][17/25]_, Loss: 0.8093_ Accuracy: 71.34_ Learning rate: 0.05000
+Epoch: [9][23/25]_, Loss: 0.7912_ Accuracy: 72.07_ Learning rate: 0.05000
+Test accuracy: 66.96_
+Epoch: [10][0/25]_, Loss: 0.7443_ Accuracy: 74.37_ Learning rate: 0.05000
+Epoch: [10][5/25]_, Loss: 0.7672_ Accuracy: 72.46_ Learning rate: 0.05000
+Epoch: [10][11/25]_, Loss: 0.7558_ Accuracy: 72.90_ Learning rate: 0.05000
+Epoch: [10][17/25]_, Loss: 0.7462_ Accuracy: 74.66_ Learning rate: 0.05000
+Epoch: [10][23/25]_, Loss: 0.7591_ Accuracy: 73.97_ Learning rate: 0.05000
+Test accuracy: 64.5_
+Epoch: [11][0/25]_, Loss: 0.7513_ Accuracy: 74.27_ Learning rate: 0.05000
+Epoch: [11][5/25]_, Loss: 0.7420_ Accuracy: 75.34_ Learning rate: 0.05000
+Epoch: [11][11/25]_, Loss: 0.7790_ Accuracy: 74.27_ Learning rate: 0.05000
+Epoch: [11][17/25]_, Loss: 0.7327_ Accuracy: 74.71_ Learning rate: 0.05000
+Epoch: [11][23/25]_, Loss: 0.7682_ Accuracy: 73.54_ Learning rate: 0.05000
+Test accuracy: 71.29_
+Epoch: [12][0/25]_, Loss: 0.7077_ Accuracy: 76.46_ Learning rate: 0.05000
+Epoch: [12][5/25]_, Loss: 0.7143_ Accuracy: 76.46_ Learning rate: 0.05000
+Epoch: [12][11/25]_, Loss: 0.7197_ Accuracy: 74.37_ Learning rate: 0.05000
+Epoch: [12][17/25]_, Loss: 0.6885_ Accuracy: 77.00_ Learning rate: 0.05000
+Epoch: [12][23/25]_, Loss: 0.6739_ Accuracy: 77.59_ Learning rate: 0.05000
+Test accuracy: 69.1_
+Epoch: [13][0/25]_, Loss: 0.6709_ Accuracy: 77.59_ Learning rate: 0.05000
+Epoch: [13][5/25]_, Loss: 0.6661_ Accuracy: 78.32_ Learning rate: 0.05000
+Epoch: [13][11/25]_, Loss: 0.6440_ Accuracy: 78.03_ Learning rate: 0.05000
+Epoch: [13][17/25]_, Loss: 0.6800_ Accuracy: 77.98_ Learning rate: 0.05000
+Epoch: [13][23/25]_, Loss: 0.6656_ Accuracy: 77.93_ Learning rate: 0.05000
+Test accuracy: 71.05_
+Epoch: [14][0/25]_, Loss: 0.6292_ Accuracy: 79.25_ Learning rate: 0.05000
+Epoch: [14][5/25]_, Loss: 0.6701_ Accuracy: 78.22_ Learning rate: 0.05000
+Epoch: [14][11/25]_, Loss: 0.6235_ Accuracy: 79.49_ Learning rate: 0.05000
+Epoch: [14][17/25]_, Loss: 0.5945_ Accuracy: 80.91_ Learning rate: 0.05000
+Epoch: [14][23/25]_, Loss: 0.5881_ Accuracy: 80.37_ Learning rate: 0.05000
+Test accuracy: 72.18_
