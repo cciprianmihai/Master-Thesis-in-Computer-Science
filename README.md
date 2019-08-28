@@ -1,1 +1,12 @@
-# Master-Thessis-in-Computer-Science
+# Abstract
+
+In recent years of research, <i>Deep Learning</i> has achieved considerable progress in many fields of study, such as <i>Natural Language Processing</i> and <i>Computer Vision</i>. In comparison with the traditional <i>Machine Learning</i> algorithms, using deep learning, the built models have a strong capability of learning the structure and the pattern of the data. Applying different techniques to build accurate deep neural networks, the main goal of the researchers is to understand how the data is represented. This task is difficult, because the data have multiple layers of abstractions and the models are represented by complicated functions with millions of parameters.
+
+During the training process of a deep neural network, the purpose is to minimize the <i>loss function</i>, which measures how accurate is the created model with respect to the dataset. <i>Hyperparameters</i> define the ability of a neural network to learn the structure of the data and they have an important impact on it’s performance. <i>Step size</i>, also known as learning rate, is a hyperparameter that controls how much the parameters of a model are adjusted with respect to the loss function, in order to improve it’s prediction capability. Determining an ideal value of the step size will assure that the optimization process is done in a reasonable time and the loss function will converge to the global minimum.
+
+In this thesis we present different <i>line search<i> algorithms, used to compute an optimal value for learning rate parameter, during the training of deep neural networks. We want to study the convergence rate of the model for both <i>convex</i> and <i>non-convex</i> problems using <i>backtracking</i>, <i>Goldstein</i> and <i>Weak Wolfe</i> methods.
+
+In the first part of this thesis, we introduce the concept of neural networks and we describe the optimization process using <i>first order</i> (first derivative of the loss function) and <i>second order</i> (second derivative of the loss function) methods. After this introductory part, we summarize the idea of line search methods and we illustrate the differences between the methods. Finally, we
+briefly describe the implementation of the architectures for convex and non-convex problems, presenting the experimental results of the line search methods.
+
+We conclude that, using line search methods, the models provide a better performance, but we need to make sure that they are able to <i>generalize</i>.
